@@ -99,7 +99,7 @@ Integrate media queries within their respective components.
       /* Styles for screens larger than 768px (tablet landscape and up) */
    }
 
-   & .child {
+   .child {
       /* Child styles for mobile by default */
 
       @media (min-width: 480px) {
