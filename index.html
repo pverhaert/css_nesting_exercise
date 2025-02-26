@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Nesting Exercise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="nav">
+    <div class="nav-brand">CSS Nesting</div>
+    <ul class="nav-menu">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="#" class="nav-link">Services</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+</nav>
+
+<main class="main">
+    <section class="hero">
+        <h1>Welcome to CSS Nesting</h1>
+        <p>Refactor the CSS file for this page using CSS Nesting features to practice</p>
+        <button class="button button-primary">Get Started</button>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <img src="https://picsum.photos/800/600?random=1" alt="Card image 1" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Feature One</h2>
+                <p class="card-text">Discover how CSS nesting can improve your code organization.</p>
+                <button class="button button-secondary">Learn More</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/800/600?random=2" alt="Card image 2" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Feature Two</h2>
+                <p class="card-text">Make your styles more maintainable with modern CSS techniques.</p>
+                <button class="button button-secondary">Learn More</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/800/600?random=3" alt="Card image 3" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Feature Three</h2>
+                <p class="card-text">Simplify your stylesheets with logical grouping.</p>
+                <button class="button button-secondary">Learn More</button>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
